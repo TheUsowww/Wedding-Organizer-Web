@@ -3,7 +3,7 @@
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Setting Profile Website</h3>
+                  <h3 class="font-weight-bold">Profile Settings</h3>
                   <h6 class="font-weight-normal mb-0">JeWePe Wedding Organizer</h6>
                 </div>
               </div>
@@ -13,14 +13,14 @@
         <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Setting Profile Website</h4>
+                  <h4 class="card-title">Profile Settings</h4>
                   <?= $this->session->flashdata('message'); ?>
                   <form action="<?= base_url('admin/Settings/updateData');?>" method="post" enctype="multipart/form-data">
                     <input type="hidden" value="<?= $settings->id; ?>" name="id">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <label for="exampleInputName1">Nama Website</label>
+                                <label for="exampleInputName1">Website Name</label>
                                 <input type="text" class="form-control" id="exampleInputName1" name="website_name" placeholder="Website Name" value="<?= $settings->website_name; ?>" required>
                             </div>
                         </div> 
