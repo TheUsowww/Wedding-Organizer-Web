@@ -19,7 +19,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="<?= base_url('assets/admin/') ?>css/vertical-layout-light/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="<?= base_url('assets/landing')?>/img/20240615_1640991229.png" />
+  <link rel="shortcut icon" href="<?= base_url('assets/landing')?>/img/logo1.png" />
   
   <!-- include summernote css/js -->
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
@@ -30,8 +30,8 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-1" href="index.html"><img src="<?= base_url('assets/landing')?>/img/20240615_1640991229.png" class="mr-1" alt="logo"/> JeWePe WO</a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="<?= base_url('assets/landing')?>/img/20240615_1640991229.png" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-1" href="index.html"><img src="<?= base_url('assets/landing')?>/img/logo1.png" class="mr-1" alt="logo"/> JeWePe WO</a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="<?= base_url('assets/landing')?>/img/logo1.png" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">

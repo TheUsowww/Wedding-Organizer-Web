@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="<?= base_url('assets/landing/') ?>img/20240615_1640991229.png" rel="icon">
+    <link href="<?= base_url('assets/landing/') ?>img/logo1.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +45,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
                 <a href="index.html" class="navbar-brand">
-                    <img class="img-fluid" src="<?= base_url('assets/landing/') ?>img/20240615_1640991229.png" alt="Logo">
+                    <img class="img-fluid" src="<?= base_url('assets/landing/') ?>img/logo1.png" alt="Logo">
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
